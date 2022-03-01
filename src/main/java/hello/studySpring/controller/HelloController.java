@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 public class HelloController {
 
 
-
+    //깃테스트
     @GetMapping("hello")
     public String hello(Model model){
         Logger logger = LoggerFactory.getLogger(HelloController.class.getName());
